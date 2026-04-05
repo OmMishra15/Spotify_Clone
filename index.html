@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/utility.css" />
+    <link rel="icon" type="image/png" href="favicon.ico">
+  </head>
+  <body>
+    <form>
+      <nav class="flex bg-color">
+        <img src="img/hamburger.svg" class="hamburger invert" alt="" />
+        <img src="img/logo.svg" class="invert" alt="Logo" />
+        <button type="button" class="home">
+          <img src="img/home.svg" class="invert" alt="Home" />
+        </button>
+        <label class="search-box">
+          <img src="img/search.svg" class="invert" alt="search" />
+          <input type="search" placeholder="What do you Want to Play?" />
+        </label>
+        <div>
+          <div class="navlinks">
+            <span>Premium</span>
+            <span>Support</span>
+            <span>Download</span>
+            <span>|</span>
+            <label class="install">
+              <img src="img/install.svg" class="invert" alt="install" />
+              Install App
+            </label>
+            <span class="sign pointer">Sign Up</span>
+            <button class="log-in">Log In</button>
+          </div>
+
+          <img src="img/hamburger.svg" class="ham invert" alt="" />
+          <div class="sidebar">
+            <span>Premium</span>
+            <span>Support</span>
+            <span>Download</span>
+            <label class="install">
+              <img src="img/install.svg" class="invert" alt="install" />
+              Install App
+            </label>
+            <span class="sign pointer">Sign Up</span>
+            <button class="log-in">Log In</button>
+          </div>
+        </div>
+      </nav>
+    </form>
+    <div class="container flex">
+      <div class="left">
+        <div class="Text">
+          Your Library
+          <button>
+            <img src="" alt="" />
+            ➕ Create
+          </button>
+        </div>
+        <label class="searchin">
+          <img src="img/search.svg" class="invert" alt="search" />
+          <input type="search" placeholder="What do you Want to Play?" />
+        </label>
+        <div class="songlist">
+          <ul></ul>
+        </div>
+        <div class="footer">
+          <div>
+            <a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a>
+          </div>
+          <div>
+            <a href="https://www.spotify.com/jp/privacy/"
+              ><span>Privacy Center</span></a
+            >
+          </div>
+          <div>
+            <a href="https://www.spotify.com/jp/legal/privacy-policy/"
+              ><span>Privacy Policy</span></a
+            >
+          </div>
+          <div>
+            <a href="https://www.spotify.com/jp/legal/cookies-policy/"
+              ><span>Cookies</span></a
+            >
+          </div>
+          <div>
+            <a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"
+              ><span>About Ads</span></a
+            >
+          </div>
+          <div>
+            <a href="https://www.spotify.com/jp/accessibility/"
+              ><span>Accessibility</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <h1>Trending Songs</h1>
+        <div class="card-container">
+
+        </div>
+        <div class="playbar">
+          <div class="seek">
+            <div class="circle"></div>
+          </div>
+          <div class="whole">
+            <div class="songinfo"></div>
+            <div class="songbuttons">
+              <img width="30px" id="prev" src="img/prev.svg" alt="Previous" />
+              <img width="30px" id="play" src="img/play.svg" alt="Play" />
+              <img width="30px" id="forw" src="img/forw.svg" alt="Forward" />
+            </div>
+            <div class="songdiv">
+              <div class="songtime"></div>
+              <div class="volume">
+                <img src="img/volume.svg" class="volimg" alt="volimg" />
+                <input type="range" name="vol" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
