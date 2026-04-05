@@ -11,7 +11,7 @@ A Responsive, Interactive and Easy-to-use Music Platform Built With HTML,CSS and
 4. **Responsive Seekbar and Interative Volume Management:** Real time Progress Tracking of the Song and Beautiful management of volume Through the App only 
 
 ## How To Run Locally
-1. git clone
+1. git clone [https://github.com/OmMishra15/Spotify_Clone.git]
 2. Open the folder in VS Code. 
 Right-click index.html and select "Open with Live Server".
 
